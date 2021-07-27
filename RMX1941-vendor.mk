@@ -71,7 +71,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/etc/audio_effects.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/audio_effects.xml \
     vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/etc/diracmobile.config:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/diracmobile.config \
     vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libDiracAPI_SHARED.so \
-    vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libdirac.so
+    vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libdirac.so \
+    vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/hw/power.mt6765.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/hw/power.mt6765.so \
+    vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib64/hw/power.mt6765.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/hw/power.mt6765.so
 
 PRODUCT_PACKAGES += \
     ImsService \
