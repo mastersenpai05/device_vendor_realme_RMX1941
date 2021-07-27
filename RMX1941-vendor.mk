@@ -68,7 +68,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/realme/RMX1941/proprietary/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.trustonic.teeregistry@1.0.so \
     vendor/realme/RMX1941/proprietary/priv-app/TeeService/lib/arm64/libTeeServiceJni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/TeeService/lib/arm64/libTeeServiceJni.so
-
+    vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/etc/audio_effects.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/audio_effects.xml \
+    vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/etc/diracmobile.config:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/diracmobile.config \
+    vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libDiracAPI_SHARED.so \
+    vendor/realme/RMX1941/proprietary/product/vendor_overlay/29/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libdirac.so
 
 PRODUCT_PACKAGES += \
     ImsService \
